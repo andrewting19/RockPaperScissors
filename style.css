@@ -1,0 +1,110 @@
+html {
+  background-color: #f0ffff;
+  font-family: "Impact", Charcoal, sans-serif;
+}
+
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e6e6fa;
+  padding: 0.5em;
+  left: -5px;
+
+
+}
+
+h1 {
+  color: #9400d3;
+  background-color: #dda0dd;
+  text-align: center;
+}
+
+.rainbow {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.smallRainbow {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5vw;
+}
+
+.mediumRainbow {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3vw;
+}
+
+.purple {
+  color: #9400d3;
+}
+
+#header img {
+  float: right;
+  padding-right: 50px;
+}
+
+#feedback {
+  color: black;
+  width: 100%;
+  padding: .1em;
+  text-align: center;
+}
+.positive {
+  background-color: #98fb98;
+}
+
+.negative {
+  background-color: #f08080;
+  padding: 3em;
+  font-size: 40px;
+
+}
+#show_rules_button, #show_stats_button, #throw_choice_button, #reset, #enter_name_button, #name, select {
+  position: relative;
+  font-family: "Impact", Charcoal, sans-serif;
+  left: -5px;
+  background-color: #ffe4e1;
+  color: #9400d3;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+#player_img {
+  padding-top: 3em;
+  float: left;
+  text-align: left;
+}
+
+#computer_img {
+  padding-top: 3em;
+
+}
+
+#fight_img {
+  padding-top: 3em;
+
+}
+
+.right { text-align: right;}
+.left {text-align: left;}
+.center {text-align: center;}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display:block;
+}
